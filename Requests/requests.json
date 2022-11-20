@@ -120,7 +120,37 @@
 		{
 			"name": "Data",
 			"item": [],
-			"id": "28f7aaec-8543-4dbd-aea1-ca0adf89fe9d"
+			"id": "28f7aaec-8543-4dbd-aea1-ca0adf89fe9d",
+			"auth": {
+				"type": "apikey",
+				"apikey": {
+					"in": "header",
+					"value": "{{TOKEN}}",
+					"key": "x-session-token"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "8358c1f1-84d6-4ffe-84f7-1f08e743fa5b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e410fd1a-ba2a-4a31-a397-9f2081e444cb",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		}
 	]
 }
