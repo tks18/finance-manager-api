@@ -142,7 +142,20 @@
 		},
 		{
 			"name": "Data",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "4e5429b2-b390-43ff-b892-1a9451da081c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "28f7aaec-8543-4dbd-aea1-ca0adf89fe9d",
 			"auth": {
 				"type": "apikey",
