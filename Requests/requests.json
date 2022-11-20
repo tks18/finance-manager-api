@@ -240,7 +240,13 @@
 				},
 				{
 					"name": "Transactions",
-					"item": [],
+					"item": [
+						{
+							"name": "New Folder",
+							"item": [],
+							"id": "291180cf-20e9-40bf-b39c-98047a61b648"
+						}
+					],
 					"id": "726caa00-9bb8-4d27-ba65-4fae38378412"
 				}
 			],
