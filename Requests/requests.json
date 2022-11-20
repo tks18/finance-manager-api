@@ -159,8 +159,9 @@
 												"disableBodyPruning": true
 											},
 											"request": {
-												"method": "GET",
-												"header": []
+												"method": "POST",
+												"header": [],
+												"url": "{{APIURL}}/data/masters/assets/categories/add"
 											},
 											"response": []
 										}
