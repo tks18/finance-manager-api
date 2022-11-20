@@ -148,7 +148,13 @@
 					"item": [
 						{
 							"name": "Assets",
-							"item": [],
+							"item": [
+								{
+									"name": "New Folder",
+									"item": [],
+									"id": "9eb749e0-be17-4c2d-9f28-7fc46cf9ae83"
+								}
+							],
 							"id": "6c7ec95c-dd91-48f2-a2b6-5bb3817d1010"
 						}
 					],
