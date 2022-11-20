@@ -122,7 +122,36 @@
 					"response": []
 				}
 			],
-			"id": "b3441a05-fd34-44a4-9b06-8a9e76597ed2"
+			"id": "b3441a05-fd34-44a4-9b06-8a9e76597ed2",
+			"auth": {
+				"type": "apikey",
+				"apikey": {
+					"value": "{{TOKEN}}",
+					"key": "x-session-token"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f438980a-65bf-4e00-a14b-7a1bd4400e1b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "004a982e-e1bc-4c5d-b78d-0e73f9b73ad4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "Data",
