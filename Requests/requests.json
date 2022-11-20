@@ -93,21 +93,8 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"auth": {
-							"type": "apikey",
-							"apikey": {
-								"value": "{{TOKEN}}",
-								"key": "x-session-token"
-							}
-						},
 						"method": "POST",
-						"header": [
-							{
-								"key": "x-session-token",
-								"value": "{{TOKEN}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"options\": {\r\n        \"endDate\": \"2050-12-31\"\r\n    }\r\n}",
