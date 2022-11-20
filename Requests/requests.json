@@ -184,7 +184,13 @@
 						},
 						{
 							"name": "Expenses",
-							"item": [],
+							"item": [
+								{
+									"name": "New Folder",
+									"item": [],
+									"id": "ba4e71d0-b3b6-4160-ad19-c4f2f0b2b36b"
+								}
+							],
 							"id": "3ff34ea8-8027-4d95-af17-dde764b91840"
 						}
 					],
