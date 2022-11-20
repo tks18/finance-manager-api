@@ -161,6 +161,15 @@
 											"request": {
 												"method": "POST",
 												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"docsToAdd\": []\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
 												"url": "{{APIURL}}/data/masters/assets/categories/add"
 											},
 											"response": []
