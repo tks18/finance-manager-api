@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Login",
-					"_postman_id": "d9ecba33-5f7e-4aa4-aafb-0d4193bd5119",
+					"id": "d9ecba33-5f7e-4aa4-aafb-0d4193bd5119",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -33,7 +33,7 @@
 				},
 				{
 					"name": "Register",
-					"_postman_id": "8ffcd3d8-c61e-4c8c-8b28-4ea6934e7b88",
+					"id": "8ffcd3d8-c61e-4c8c-8b28-4ea6934e7b88",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -54,7 +54,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "c13d5d18-12de-4038-ba90-9de51374fd08",
+			"id": "c13d5d18-12de-4038-ba90-9de51374fd08",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -88,7 +88,7 @@
 			"item": [
 				{
 					"name": "Build Calendar",
-					"_postman_id": "e2e691b4-3f7e-455a-9a1c-1bd6c4266e53",
+					"id": "e2e691b4-3f7e-455a-9a1c-1bd6c4266e53",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -115,7 +115,12 @@
 					"response": []
 				}
 			],
-			"_postman_id": "b3441a05-fd34-44a4-9b06-8a9e76597ed2"
+			"id": "b3441a05-fd34-44a4-9b06-8a9e76597ed2"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "28f7aaec-8543-4dbd-aea1-ca0adf89fe9d"
 		}
 	]
 }
