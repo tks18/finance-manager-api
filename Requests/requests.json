@@ -93,6 +93,13 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": {
+								"value": "{{TOKEN}}",
+								"key": "x-session-token"
+							}
+						},
 						"method": "POST",
 						"header": [
 							{
