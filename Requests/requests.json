@@ -179,7 +179,30 @@
 								},
 								{
 									"name": "Master",
-									"item": [],
+									"item": [
+										{
+											"name": "Add",
+											"id": "0b61a1bc-32d7-4555-94b8-0046dc292d52",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\r\n    \"docsToAdd\": []\r\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": "{{APIURL}}/data/masters/assets/categories/add"
+											},
+											"response": []
+										}
+									],
 									"id": "787044fc-473b-436c-a85d-2d5b0e4bfee9"
 								}
 							],
