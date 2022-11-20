@@ -145,7 +145,13 @@
 			"item": [
 				{
 					"name": "Masters",
-					"item": [],
+					"item": [
+						{
+							"name": "New Folder",
+							"item": [],
+							"id": "6c7ec95c-dd91-48f2-a2b6-5bb3817d1010"
+						}
+					],
 					"id": "d95ce50f-9b98-402d-bc3c-2cac9f38fc2e"
 				},
 				{
