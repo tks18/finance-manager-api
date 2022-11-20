@@ -153,7 +153,7 @@
 									"name": "Categories",
 									"item": [
 										{
-											"name": "New Request",
+											"name": "Add",
 											"id": "562a4968-5fbf-4c23-a499-c84502724b42",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
