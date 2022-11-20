@@ -151,7 +151,20 @@
 							"item": [
 								{
 									"name": "Categories",
-									"item": [],
+									"item": [
+										{
+											"name": "New Request",
+											"id": "562a4968-5fbf-4c23-a499-c84502724b42",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": []
+											},
+											"response": []
+										}
+									],
 									"id": "9eb749e0-be17-4c2d-9f28-7fc46cf9ae83"
 								},
 								{
